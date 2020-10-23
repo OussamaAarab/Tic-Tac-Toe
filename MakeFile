@@ -1,0 +1,3 @@
+build 1:
+	gcc src/*.c -o bin/Game -I include -L lib -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf
+	bin/Game
